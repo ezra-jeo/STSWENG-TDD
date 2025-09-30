@@ -1,6 +1,7 @@
 function roman_numeral_converter(numeral) {
   const conversion_table = {
-    "I": 1
+    "I": 1,
+    "V": 5,
   }
 
   const processed = numeral.toUpperCase();
