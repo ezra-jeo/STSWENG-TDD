@@ -20,3 +20,17 @@ test('Converts L to 50', () => {
     expect(roman_numeral_converter('L')).toBe(50);
 });
 
+// Checks correct conversion of Roman Numeral 'C' to 100.
+test('Converts C to 100', () => {
+    expect(roman_numeral_converter('C')).toBe(100);
+});
+
+// Checks correct conversion of Roman Numeral 'D' to 500.
+test('Converts D to 500', () => {
+    expect(roman_numeral_converter('D')).toBe(500);
+});
+
+// Checks correct conversion of Roman Numeral 'M' to 1000.
+test('Converts M to 1000', () => {
+    expect(roman_numeral_converter('M')).toBe(1000);
+});
