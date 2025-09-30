@@ -1,0 +1,16 @@
+ 1054  git add src/tests__/moduleATest.spec.js
+ 1055  git commit -m "test: add failing test for Module A"
+ 1056  git push
+ 1057  git pull
+ 1058  npm test
+ 1059  npm test
+ 1060  npm test
+ 1061  git add src/tests__/moduleATest.spec.js
+ 1062  git add src/moduleA.js
+ 1063  git commit -m "feat: solved test case for V and added test case for X and L"
+ 1064  git push
+ 1065  git pull
+ 1066  npm test
+ 1067  git add src/moduleA.js
+ 1068  git commit -m "fix: solved test case for C, D, M"
+ 1069  git push
